@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .button-container {
+      position: relative; /* 相对定位 */
+      top: -15px; /* 向下移动px */
+      left: 100px; /* 向右移动px */
+    }
+  </style>
+<body>
+    <form action="action_page.php" method="POST" target="_blank"></form>
+    <form>
+        昵称：  
+        <input type="text" value="">
+        <br>
+        密码：
+        <input type="text" value="">
+        <br>
+        邮箱：
+        <input type="text" value="">
+            <select name="" id="">
+                <option value="">qq.com</option>
+                <option value="">163.com</option>
+            </select>
+        <br>      
+        <td>性别：</td>
+        <input type="radio" name="sex" value="男">男
+        <input type="radio" name="sex" value="女">女
+        <br>
+        <td>爱好：</td>
+        <input type="radio" name="sex" value="男">旅游
+        <input type="radio" name="sex" value="女">摄影
+        <input type="radio" name="sex" value="女">运动
+        <br>
+        个人简介：
+        <p><textarea></textarea></p>
+        <p>上传个人照片: <br><input type="file" /></p>
+
+        <hr style="margin-top:0px;margin-left:0px;width:20%">
+        <br>
+        <div class="button-container">
+            <input type="button" value="立即注册" />
+        </div>
+    </form>
+</body>
+</html>
